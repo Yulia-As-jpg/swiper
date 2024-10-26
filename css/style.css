@@ -183,6 +183,12 @@ body {
         height: 72px !important;
     }
 
+    .vs {
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .swiper-slide:nth-child(n+9) {
         display: none;
     }
