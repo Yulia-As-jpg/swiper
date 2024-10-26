@@ -116,8 +116,6 @@ body {
     }
     
     .swiper-slide {
-        justify-content: space-between;
-        align-items: center;
         width: 224px !important;
         height: 72px !important;
         border-radius: 6px;
@@ -137,6 +135,8 @@ body {
     }
     .swiper-wrapper.visible .swiper-slide:nth-child(n+7) {
         display: flex !important;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .opening-button__open {
@@ -183,17 +183,13 @@ body {
         height: 72px !important;
     }
 
-    .vs {
-        display: flex !important;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     .swiper-slide:nth-child(n+9) {
         display: none;
     }
     .swiper-wrapper.visible .swiper-slide:nth-child(n+9) {
         display: flex !important;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .opening-button__open {
